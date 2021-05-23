@@ -6,8 +6,8 @@ import Grid from '@material-ui/core/Grid';
 export default function Nav() {
     return (
         <>
-        <Link to="/">
-            <div className="user-name link-hover">
+        <Link to="/" className="link-hover">
+            <div className="user-name">
             Mohit Sharma
             </div>
         </Link><br />
@@ -16,20 +16,20 @@ export default function Nav() {
             container>
                 <Grid item md={2} xs={12}>
                     <div className="options">
-                    <Link to="/blog">
-                        <div className="link-title link-hover">
-                                /blog
-                        </div>
-                    </Link>
+                        <Link to="/blog" className="link-hover">
+                            <div className="link-title">
+                                    /blog
+                            </div>
+                        </Link>
                     </div>
                 </Grid>
                 <Grid item md={4} xs={12}>
                     <div className="options">
-                    <Link to="/projects">
-                        <div className="link-title link-hover">
-                                /projects
-                        </div>
-                    </Link>
+                        <Link to="/projects" className="link-hover">
+                            <div className="link-title">
+                                    /projects
+                            </div>
+                        </Link>
                     </div>
                 </Grid>
             </Grid>
