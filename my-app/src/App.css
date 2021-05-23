@@ -11,6 +11,16 @@ a {
   font-weight: bolder;
 }
 
+.link-hover-mobile:active,.link-hover-mobile:focus{
+  font-weight: bolder;
+}
+
+.link-hover-mobile:active,.link-hover-mobile:focus,.link-hover-mobile:hover, .link-hover-mobile:selected{
+  background:none !important;
+  outline: none !important;
+  background-color: #fff !important;
+}
+
 .app-layout{
   font-family: "Roboto Mono", monospace;
 }
