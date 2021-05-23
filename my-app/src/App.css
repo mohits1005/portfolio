@@ -2,3 +2,22 @@ a {
     text-decoration: none !important;
     color: #000;
 }
+
+.app-layout{
+  font-family: "Roboto Mono", monospace;
+}
+
+.app-layout .para{
+  line-height: 1.5em;
+  font-size: 1.25rem;
+}
+
+.app-layout .user-name{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+.app-layout .link-title{
+  font-size: 1.8rem;
+}
